@@ -1,0 +1,168 @@
+/*Syle sheet for kitties-to-go site*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Tahoma;
+  font-size: 18px;
+}
+
+/**********HEADER***********/
+
+header {
+  background-color: #000;
+}
+
+.first-link {
+  float: right;
+  color: #f00;
+  margin-top: 0.75rem;
+  margin-right: 0.5rem;
+  font-size: 1.3rem;
+}
+
+h1, h2 {
+  font-weight: normal;
+  clear: both;
+  padding-left: 2rem;
+}
+
+h1 {
+  color: #fff;
+  padding-top: 3.5rem;
+  padding-bottom: 0;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: #bfbfbf;
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.4rem;
+}
+
+nav ul {
+  list-style: none;
+  background-color: #bfbfbf;
+  text-align: center;
+  padding: 0.7rem;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 1.3rem;
+  overflow: auto;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+/**********BODY************/
+
+section {
+  float: left;
+  width: 60%;
+  padding-left: 2rem;
+}
+
+section h3 {
+  font-size: 1.8rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+blockquote {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+aside {
+  float: right;
+  width: 35%;
+  border: 1px solid #000;
+  text-align: center;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+}
+
+img {
+  width: 100%;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+figure {
+  margin: 0 1.3rem 0.6rem 1.3rem;
+}
+
+figure h3 {
+  clear: both;
+  margin-bottom: 0;
+  font-weight: normal;
+  font-size: 1.4rem;
+}
+
+.fan-fave {
+  margin-bottom: 0;
+}
+
+figcaption {
+  font-size: 1.2rem;
+}
+
+span {
+  float:left;
+  width: 50%;
+  font-size: 0.95rem;
+}
+
+.about-fig1 {
+  padding-bottom: 2rem;
+  padding-left: 0.3rem;
+}
+
+.book {
+  color: #f00;
+  float: right;
+  width: 50%;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+footer {
+  clear: both;
+  background-color: #000;
+  color: #fff;
+}
+
+.contact {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+.contact p {
+  margin: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+address a {
+  color: #f00;
+}
+
+.copyright {
+  text-align: center;
+  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+}
+
+.copyright p {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 1rem;
+}
